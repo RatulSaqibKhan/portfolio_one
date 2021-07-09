@@ -3,7 +3,7 @@
   --secondaryColor: #fff;
 
   --borderColor: #c1c1c1;
-  --themeDotColor: #24292e;
+  --themeDotBorder: #24292e;
 
   --mainText: black;
   --secondaryText: #4b5156;
@@ -124,6 +124,10 @@ li {
   background-color: var(--mainColor);
 }
 
+#navigation a {
+  color: var(--mainText);
+}
+
 .dots-wrapper {
   display: flex;
   padding-left: 0.89em;
@@ -192,7 +196,7 @@ li {
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   cursor: pointer;
   margin: 5px;
-  border: 2px solid var(--themeDotColor);
+  border: 2px solid var(--themeDotBorder);
   transition: all 0.5s ease-out;
 }
 
