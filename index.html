@@ -105,7 +105,11 @@
             </div>
           </div>
           <div class="social-links">
-            <img src="assets/images/marketing.jpg" alt="Follow" id="social_img"/>
+            <img
+              src="assets/images/marketing.jpg"
+              alt="Follow"
+              id="social_img"
+            />
             <div>
               <h3>Follow Me in Social Sites</h3>
               <span class="social-icons">
@@ -173,7 +177,22 @@
     </section>
     <section class="s2">
       <div class="main-container">
-        <h1>Contact</h1>
+        <h3 style="text-align: center">Get In Touch</h3>
+        <form id="contact-form" autocomplete="off">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="input-field" />
+
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" id="subject" class="input-field" />
+
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" class="input-field" />
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="input-field"></textarea>
+
+          <input id="submit-btn" type="button" value="Send" />
+        </form>
       </div>
     </section>
   </body>
